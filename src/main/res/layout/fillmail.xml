@@ -20,7 +20,7 @@
 
     <EditText
         android:id="@+id/to"
-        android:text="263996097@qq.com"
+        android:text="@qq.com"
         android:hint="please input developer email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
