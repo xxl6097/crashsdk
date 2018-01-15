@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+<!--
+    <EditText
+        android:id="@+id/from"
+        android:text="xiaxiaoli_2005@163.com"
+        android:hint="input your email address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/pass"
+        android:password="true"
+        android:text="2475431305"
+        android:hint="input your mail pass word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+    <EditText
+        android:id="@+id/to"
+        android:text="263996097@qq.com"
+        android:hint="please input developer email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
