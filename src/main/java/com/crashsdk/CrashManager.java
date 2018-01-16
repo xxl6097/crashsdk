@@ -219,6 +219,19 @@ public class CrashManager {
     }
 
     public static void sendErrorEmail(Context context, String error) {
+        EmailBean emailBean = new EmailBean();
+        final String taskIsName = "fuck";
+        OnEmailEvents callback = new OnEmailEvents(taskIsName) {
+            @Override
+            public void sendSucessfull(String taskIsClassName) {
+            }
+
+            @Override
+            public void sendFaid(String taskIsClassName) {
+            }
+        };
+        emailBean.setOnEmailEvents(callback);
+        CrashManager.createEmail(emailBean);
         sendMail(context, error, false, mEmail);
     }
 
